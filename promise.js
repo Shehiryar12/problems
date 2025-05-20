@@ -16,15 +16,4 @@
  //reject used with catch
  */
 
- const count=true;
- const a=new Promise((resolve,reject)=>{
-  if(count){
-     resolve("counting is complete")
-  }
-  else{
-    reject("counting is not complete")
-  }
- }
-)
-a.then((print)=>console.log(print))
-a.catch((notprint)=>console.log(notprint))
+// 
