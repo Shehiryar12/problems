@@ -13,7 +13,8 @@
 
  // resolve tab chalta hai jab ap ka program successfully run ho jaye.
  // reject tab chalta hai jab ap ka program successfully run na ho
-
+ //resolve used with then
+ //reject used with catch
  */
 
  const count=true;
