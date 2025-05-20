@@ -38,8 +38,8 @@
 //     }
 // }
 // );
-// toss.then=(output=>console.log('nj',output))
-// toss.catch=(output=>console.log(output))
+// toss.then(output=>console.log('nj',output))
+// toss.catch(output=>console.log(output))
 
 
 
@@ -56,13 +56,13 @@
 // const positive=true;
 // const promise =new Promise((resolve,reject)=>{
 // if(positive){
-//      resolve("Number is positive"),15000
+//      resolve("Number is positive")
 // }
 // else{
 //     reject("Number is not positive")
 // }
 // })
-// promise.then=(output=>console.log(output)).catch=(output=>console.log(output))
+// promise.then(output=>console.log(output)).catch(output=>console.log(output))
 
 //-------------------------------------------------------------------------------------------------------------------------
 
@@ -95,5 +95,25 @@
 
 // toss.then(output => console.log('nj', output))
 //     .catch(error => console.log(error));
+
+
+//-------------------------home------------------------------------------
+
+/* : Write a JavaScript Promise that waits for 2 seconds and then resolves with a message. 
+Use .then() to display the message.*/
+const message=true;
+const promise=new Promise((resolve,reject) => {
+
+ setTimeout(() => {
+      if(message){
+        resolve("i am fine")
+      }
+      else{
+        reject("i am not fine")
+      }
+ },2000)
+})
+
+promise.then(print=>(console.log(print))).catch(print=>(console.log(print)))
 
 
