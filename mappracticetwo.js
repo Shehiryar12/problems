@@ -69,12 +69,5 @@ const arrthree=[
 //const number=arrthree.map((items)=>console.log(items.age*5))
 // const number=arrthree.map((item)=>console.log(item.age+item.rollno))
 
-const val=arrthree.map((item,index)=>{
-    {
-        if(index===2){
-               console.log(item.rollno)
-        }
-    }
-})
 
 //------------------------------------------------------------------------------------------------------------------

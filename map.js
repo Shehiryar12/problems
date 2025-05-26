@@ -95,8 +95,8 @@ const arr=[
 // const age=arr.map((item)=>console.log(item.age))
 
 //print only first object
- const data=arr.map((item,index)=>{
-    if(index===0){
-        console.log(item.name)
-    }
- })
+//  const data=arr.map((item,index)=>{
+//     if(index===0){
+//         console.log(item.name)
+//     }
+//  })
